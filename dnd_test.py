@@ -1,6 +1,30 @@
 import streamlit as st
 import random
 
+# Easy to edit list of things.
+VERSION = "v0.2"
+
+# Display the version in hte top left corner.
+st.markdown(
+    f"""
+    <style>
+    .version-box {{
+        position: absolute;
+        top: 10px;
+        left: 25px;
+        background-color: rgba(1, 50, 32, 0.8);
+        color: white;
+        padding: 4px 10px;
+        border-radius: 5px;
+        font-size: 14px;
+        z-index: 1000;
+    }}
+    </style>
+    <div class="version-box">{VERSION}</div>
+    """,
+    unsafe_allow_html=True
+)
+
 # Set up session state for roll history
 if "roll_history" not in st.session_state:
     st.session_state.roll_history = []
