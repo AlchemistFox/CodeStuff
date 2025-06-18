@@ -7,7 +7,7 @@ import random
 if "roll_history" not in st.session_state:
     st.session_state.roll_history = []
 
-st.title("🎲 D&D D20 Dice Roller_test")
+st.title("🎲 D&D D20 Dice Roller_test2")
 
 # Button to roll the die
 if st.button("Roll D20"):
