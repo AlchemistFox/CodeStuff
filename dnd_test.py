@@ -1,13 +1,11 @@
 import streamlit as st
 import random
 
-# Test info. More info to test
-
 # Set up session state for roll history
 if "roll_history" not in st.session_state:
     st.session_state.roll_history = []
 
-st.title("🎲 D&D D20 Dice Roller_test2")
+st.title("🎲 D&D D20 Dice Roller")
 
 # Button to roll the die
 if st.button("Roll D20"):
