@@ -1,0 +1,14 @@
+[theme]
+base = "dark"
+primaryColor = "#013220"
+backgroundColor = "#0B1F0B"
+secondaryBackgroundColor = "#013220"
+textColor = "#FFFFFF"
+font = "sans serif"
+
+[server]
+headless = true
+
+[ui]
+hide_top_bar = true
+hide_menu = true
