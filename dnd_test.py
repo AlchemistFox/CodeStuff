@@ -1,29 +1,7 @@
 import streamlit as st
 import random
 
-st.markdown(
-    """
-    <style>
-    /* Change the whole page background */
-    .css-1d391kg {
-        background-color: #013220 !important;
-    }
-    /* Change main content background */
-    .css-18e3th9 {
-        background-color: #013220 !important;
-    }
-    /* Change sidebar background (if you use one) */
-    .css-1v3fvcr {
-        background-color: #013220 !important;
-    }
-    /* Change text color */
-    .stText, .stMarkdown, .stButton>button {
-        color: white !important;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+# Test info.
 
 # Set up session state for roll history
 if "roll_history" not in st.session_state:
