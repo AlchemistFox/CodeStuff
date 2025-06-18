@@ -3,7 +3,7 @@ name: Send Email
 on:
   workflow_dispatch:  # allows manual trigger
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 20 * * *"
 
 jobs:
   send_email_job:
