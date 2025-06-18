@@ -11,7 +11,7 @@ SENDER_EMAIL = os.getenv("SENDER_EMAIL")
 APP_PASSWORD = os.getenv("APP_PASSWORD")
 RECEIVER_EMAIL = os.getenv("RECEIVER_EMAIL")
 SUBJECT = "Test Email from Python"
-BODY = "This is a test email sent from a Python script!"
+BODY = "This is a test email sent from a Python script! It should come in at 06:15 Norwegian time."
 
 # --- Email setup ---
 msg = MIMEMultipart()
