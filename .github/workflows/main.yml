@@ -1,4 +1,4 @@
-name: Send Email
+name: Send Email 2
 # Manual created file
 on:
   schedule:
