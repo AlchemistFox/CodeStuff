@@ -25,6 +25,19 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# Try to remove the chunky top-frame.
+st.markdown(
+    """
+    <style>
+    /* Reduce vertical spacing at top of page */
+    .block-container {
+        padding-top: 1rem !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Set up session state for roll history
 if "roll_history" not in st.session_state:
     st.session_state.roll_history = []
