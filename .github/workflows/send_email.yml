@@ -1,9 +1,9 @@
 name: Send Email
 
 on:
-  workflow_dispatch:  # allows manual trigger
   schedule:
     - cron: "0 19 * * *"
+  workflow_dispatch: # allows for manual trigger.
 
 jobs:
   send_email_job:
