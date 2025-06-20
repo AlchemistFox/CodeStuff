@@ -5,7 +5,7 @@ import random
 # test for testing_12
 
 # Easy to edit list of things.
-VERSION = "v0.3"
+VERSION = "v0.3.1"
 
 # Display the version in hte top left corner.
 st.markdown(
