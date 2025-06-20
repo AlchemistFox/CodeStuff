@@ -1,0 +1,167 @@
+/* General background and text */
+html,
+body,
+[data-testid="stAppViewContainer"],
+[data-testid="stSidebar"] {
+    background-color: white !important;
+    color: black !important;
+    font-family: monospace !important;
+}
+
+/* Sidebar background and text */
+[data-testid="stSidebar"]>div {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* Text elements */
+div,
+span,
+p,
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    color: black !important;
+    font-family: monospace !important;
+}
+
+/* Remove focus outline and shadow */
+*:focus {
+    outline-color: black !important;
+    box-shadow: none !important;
+}
+
+/* Buttons */
+button,
+.stButton>button {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+    font-family: monospace !important;
+    border-radius: 0 !important;
+    padding: 6px 12px !important;
+}
+
+/* Text inputs and textareas */
+input[type="text"],
+input[type="search"],
+textarea {
+    border: 1px solid black !important;
+    background-color: white !important;
+    color: black !important;
+    font-family: monospace !important;
+    padding: 6px 8px !important;
+    border-radius: 0 !important;
+}
+
+/* Selectbox container */
+[data-baseweb="select"]>div {
+    border: 1px solid black !important;
+    background-color: white !important;
+    color: black !important;
+    font-family: monospace !important;
+    border-radius: 0 !important;
+    padding: 4px 8px !important;
+}
+
+/* Selectbox input - keep visible and styled */
+[data-baseweb="select"] input {
+    color: black !important;
+    background-color: white !important;
+    border: none !important;
+    font-family: monospace !important;
+}
+
+/* Dropdown arrow icon color */
+[data-baseweb="select"] svg {
+    fill: black !important;
+}
+
+/* Dropdown listbox */
+div[role="listbox"] {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+    border-radius: 0 !important;
+}
+
+/* Dropdown options */
+div[role="option"] {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* Hover and selected states */
+div[role="option"]:hover,
+div[role="option"][aria-selected="true"] {
+    background-color: #e0e0e0 !important;
+    color: black !important;
+}
+
+/* Table container styling */
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    border: 1px solid black !important;
+    background-color: white !important;
+}
+
+/* Table cells */
+td {
+    border: 1px solid black !important;
+    padding: 6px 12px !important;
+    font-family: monospace !important;
+    text-align: center !important;
+    color: black !important;
+}
+
+/* Remove default rounded corners from all relevant elements */
+input,
+select,
+textarea,
+button,
+[data-baseweb="select"]>div,
+div[role="listbox"],
+div[role="option"] {
+    border-radius: 0 !important;
+}
+
+/* Ensure enough height and padding for select input */
+[data-baseweb="select"]>div {
+    min-height: 32px !important;
+    /* or 36px depending on your font size */
+    padding: 6px 8px !important;
+    line-height: 1.2 !important;
+    font-size: 14px !important;
+    /* adjust if needed */
+    display: flex !important;
+    align-items: center !important;
+    /* vertically center text */
+}
+
+/* Also fix the input inside the select */
+[data-baseweb="select"] input {
+    height: auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 1.2 !important;
+}
+
+/* Fix option height and padding */
+div[role="option"] {
+    min-height: 32px !important;
+    padding: 6px 12px !important;
+    display: flex !important;
+    align-items: center !important;
+}
