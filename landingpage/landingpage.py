@@ -38,7 +38,7 @@ with col1:
 
 with col2:
     st.markdown("##  Test apps")
-    st.markdown("####  [test - D20 roller](https://codefox.streamlit.app/)")
+    st.markdown("####  [test - D20 roller](https://codefox-testd20.streamlit.app/)")
 #    st.markdown("### 🛒 [Price Comparison App](https://your-pricing-app-url.com)")
 
 st.markdown("---")
