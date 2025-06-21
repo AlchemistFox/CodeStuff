@@ -21,22 +21,24 @@ image_base64 = get_image_base64(logo_path)
 st.markdown(f"""
     <div style="text-align: center;">
         <img src="data:image/png;base64,{image_base64}" width="200"/>
-        <h1 style="margin-top: 0;">Welcome to My App Hub</h1>
-        <h3>Select a project to explore:</h3>
+        <h1 style="margin-top: 0;">List of stuff</h1>
     </div>
 """, unsafe_allow_html=True)
 
 st.markdown("---")
 
 # App links in two columns
-#col1, col2 = st.columns(2)
-col1, = st.columns(1)
+col1, col2 = st.columns(2)
+#col1, = st.columns(1)
 
 with col1:
-    st.markdown("### 🧙 [D&D Character Sheet](https://your-dnd-app-url.com)")
+    st.markdown("##  Working apps")
+    st.markdown("#### N/A")
 #    st.markdown("### 🛒 [Price Comparison App](https://your-pricing-app-url.com)")
 
-#with col2:
+with col2:
+    st.markdown("##  Test apps")
+    st.markdown("####  [test - D20 roller](https://codefox.streamlit.app/)")
 #    st.markdown("### 🛒 [Price Comparison App](https://your-pricing-app-url.com)")
 
-    st.markdown("---")
+st.markdown("---")
