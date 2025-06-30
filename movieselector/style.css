@@ -1,0 +1,32 @@
+/* Remove top margin/padding on main content container */
+main>div.block-container {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+}
+
+/* Sometimes Streamlit wraps content in other divs, so let's also reset margin of first div */
+main>div.block-container>div:first-child {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+
+
+.stButton>button {
+    min-width: 120px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.stButton>button[key="yes_btn"] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.stButton>button[key="no_btn"] {
+    background-color: #f44336;
+    color: white;
+}
