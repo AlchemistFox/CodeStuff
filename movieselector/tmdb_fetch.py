@@ -1,8 +1,13 @@
 # tmdb_fetch.py
 
 import requests
+import os
+from dotenv import load_dotenv
 
-API_KEY = '0d9a9a2de301dd853240df42caa2d5ba'  # Replace with your real API key
+# Load .env variables
+load_dotenv()
+
+TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 BASE_URL = 'https://api.themoviedb.org/3'
 
 def get_popular_movies():
