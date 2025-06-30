@@ -1,2 +1,4 @@
 .SwichToPERSONALAccount.py
 .env
+/spelltracker/credentials.json
+/movieselector/service_account.json
