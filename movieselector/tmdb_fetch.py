@@ -12,7 +12,7 @@ BASE_URL = 'https://api.themoviedb.org/3'
 
 def get_popular_movies():
     url = f'{BASE_URL}/movie/popular'
-    params = {'api_key': API_KEY, 'language': 'en-US', 'page': 1}
+    params = {'api_key': TMDB_API_KEY, 'language': 'en-US', 'page': 1}
     response = requests.get(url, params=params)
     data = response.json()
     return data['results']
