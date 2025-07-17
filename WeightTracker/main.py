@@ -128,7 +128,7 @@ grid_response = AgGrid(
     gridOptions=grid_options,
     update_mode=GridUpdateMode.SELECTION_CHANGED,
     allow_unsafe_jscode=True,
-    height=50 + pagination_page_size * 28,  # 28 px per row approx + header
+    height=80 + pagination_page_size * 28,  # 28 px per row approx + header
     fit_columns_on_grid_load=True,
 )
 
