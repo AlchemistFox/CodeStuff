@@ -2,3 +2,5 @@
 .env
 /spelltracker/credentials.json
 /movieselector/service_account.json
+/WeightTracker/.streamlit*
+/WeightTracker/service_account.json

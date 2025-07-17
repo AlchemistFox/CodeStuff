@@ -1,0 +1,14 @@
+# Ignore Streamlit secrets
+.streamlit/secrets.toml
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environments
+venv/
+.env/
