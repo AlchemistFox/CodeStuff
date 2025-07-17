@@ -33,7 +33,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.markdown("##  Working apps")
-    st.markdown("#### N/A")
+    st.markdown("#### [Veyrathi Translator](https://fox-veryathitranslator.streamlit.app/)")
 #    st.markdown("### 🛒 [Price Comparison App](https://your-pricing-app-url.com)")
 
 with col2:
