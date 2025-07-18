@@ -20,6 +20,8 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+st.set_page_config(page_title="Weight Tracker")
+
 # ----- Google Sheets connection -----
 scope = [
     "https://spreadsheets.google.com/feeds",
